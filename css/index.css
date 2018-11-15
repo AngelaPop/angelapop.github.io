@@ -194,7 +194,7 @@ body #footer {
   background-color: rgba(194, 162, 194, 0.8);
 }
 
-@media (max-width: 1920px) and (min-width: 1281px) {
+@media (max-width: 1920px) and (min-width: 1282px) {
   body #main img {
     float: left;
     margin-left: 10rem;
