@@ -834,6 +834,7 @@ body {
 /*--------------- Small PC monitors ---------------*/
 @media(min-width: 1080px) {
     body #main img {
+        float: left;
         margin-left: 10rem;
         max-width: 100%;
         margin-top: 0rem;
