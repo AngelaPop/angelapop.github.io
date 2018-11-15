@@ -1,0 +1,207 @@
+body #portfolio {
+  background-color: #d3c8d8;
+  -webkit-box-shadow: 5px 8px 15px 0px #3a3939;
+  box-shadow: 5px 8px 15px 0px #2b2a2a;
+  width: 95%;
+  height: auto;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+body #portfolio #doc1,
+body #portfolio #doc2,
+body #portfolio #doc3,
+body #portfolio #doc4,
+body #portfolio #doc5,
+body #portfolio #doc6,
+body #portfolio #doc7,
+body #portfolio #doc8,
+body #portfolio #doc9,
+body #portfolio #doc10,
+body #portfolio #doc11 {
+  width: 500px;
+  height: 600px;
+}
+
+body #portfolio div .container {
+  max-width: 50rem;
+  margin: 2rem;
+  display: unset;
+}
+
+body #portfolio div .container div.row {
+  width: 95%;
+}
+
+body #portfolio div .container div.row div.col {
+  width: 45%;
+}
+
+body #portfolio h2 {
+  text-align: center;
+}
+
+body #portfolio h4 {
+  text-align: center;
+}
+
+body a:hover {
+  color: darkmagenta;
+}
+
+body #footer {
+  background-color: rgba(194, 162, 194, 0.8);
+}
+
+/*---------------- Responsive Media - Queries------*/
+@media (min-width: 0px) and (max-width: 480px) {
+  body #top h3 {
+    margin-left: 6rem;
+  }
+  body button#myBtn {
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    font-size: 0px;
+    border: none;
+    outline: none;
+    background-color: #8a6680;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 0;
+    display: none;
+  }
+  body #portfolio {
+    width: 88%;
+    margin-top: 2rem;
+  }
+  body #portfolio h2 {
+    font-size: 1rem;
+  }
+  body #portfolio h4 {
+    font-size: 0.5rem;
+    padding: 1rem;
+  }
+  body #portfolio #doc1,
+  body #portfolio #doc2,
+  body #portfolio #doc3,
+  body #portfolio #doc4,
+  body #portfolio #doc5,
+  body #portfolio #doc6,
+  body #portfolio #doc7,
+  body #portfolio #doc8,
+  body #portfolio #doc9,
+  body #portfolio #doc10,
+  body #portfolio #doc11 {
+    display: none;
+  }
+  body #portfolio #mobilePdf {
+    margin: auto;
+    padding: 0;
+    width: 40rem;
+    height: 30rem;
+  }
+  body #portfolio #mobilePdf ul {
+    list-style-type: none;
+    font-size: 0.7rem;
+    padding: 0px;
+  }
+  #footer div.col-4 {
+    display: inline-table;
+    margin: 0 auto;
+  }
+  #footer h2,
+  #footer h3,
+  #footer h4 {
+    font-size: 11px;
+  }
+  h5 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  body button#myBtn {
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    font-size: 0px;
+    border: none;
+    outline: none;
+    background-color: #8a6680;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 0;
+    display: none;
+  }
+  body #top h3 {
+    margin-left: 6rem;
+  }
+  body #portfolio {
+    width: 88%;
+    margin-top: 2rem;
+  }
+  body #portfolio h2 {
+    font-size: 1rem;
+  }
+  body #portfolio h4 {
+    font-size: 0.5rem;
+    padding: 1rem;
+  }
+  body #portfolio #doc1,
+  body #portfolio #doc2,
+  body #portfolio #doc3,
+  body #portfolio #doc4,
+  body #portfolio #doc5,
+  body #portfolio #doc6,
+  body #portfolio #doc7,
+  body #portfolio #doc8,
+  body #portfolio #doc9,
+  body #portfolio #doc10,
+  body #portfolio #doc11 {
+    display: none;
+  }
+  body #portfolio #mobilePdf {
+    width: 40rem;
+    height: 30rem;
+  }
+  body #portfolio #mobilePdf ul {
+    list-style-type: none;
+    font-size: 0.7rem;
+  }
+  #footer div.col-4 {
+    display: inline-table;
+    margin: 0 auto;
+  }
+  #footer h2,
+  #footer h3,
+  #footer h4 {
+    font-size: 11px;
+  }
+  #footer h5 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body #mobilePdf {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  body #mobilePdf {
+    display: none;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1920px) {
+  body #mobilePdf {
+    display: none;
+  }
+}
+/*# sourceMappingURL=portfolio.css.map */

@@ -1,0 +1,284 @@
+body {
+
+
+
+
+    #portfolio {
+        background-color: rgb(211, 200, 216);
+        -webkit-box-shadow: 5px 8px 15px 0px #3a3939;
+        box-shadow: 5px 8px 15px 0px #2b2a2a;
+        width: 95%;
+        height: auto;
+        padding: 2rem;
+        padding-bottom: 2rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+
+        #doc1,
+        #doc2,
+        #doc3,
+        #doc4,
+        #doc5,
+        #doc6,
+        #doc7,
+        #doc8,
+        #doc9,
+        #doc10,
+        #doc11 {
+            width: 500px;
+            height: 600px;
+        }
+
+        div .container {
+            max-width: 50rem;
+            margin: 2rem;
+            display: unset;
+
+            div.row {
+                width: 95%;
+
+                div.col {
+                    width: 45%;
+
+
+
+                }
+            }
+        }
+
+
+
+        h2 {
+            text-align: center;
+        }
+
+        h4 {
+            text-align: center;
+        }
+    }
+
+
+
+    a:hover {
+        color: rgb(139, 0, 139);
+    }
+    #footer {
+        background-color: rgba(194, 162, 194, 0.8);
+    }
+}
+
+
+
+/*---------------- Responsive Media - Queries------*/
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media(min-width: 0px) and (max-width: 480px) {
+
+    body {
+        #top h3 {
+            margin-left: 6rem;
+        }
+
+        button#myBtn {
+            bottom: 0;
+            right: 0;
+            z-index: 0;
+            font-size: 0px;
+            border: none;
+            outline: none;
+            background-color: #8a6680;
+            color: white;
+            cursor: pointer;
+            padding: 0;
+            border-radius: 0;
+            display: none;
+        }
+
+        #portfolio {
+
+            width: 88%;
+            margin-top: 2rem;
+
+            h2 {
+                font-size: 1rem;
+            }
+
+            h4 {
+                font-size: 0.5rem;
+                padding: 1rem;
+
+            }
+
+            #doc1,
+            #doc2,
+            #doc3,
+            #doc4,
+            #doc5,
+            #doc6,
+            #doc7,
+            #doc8,
+            #doc9,
+            #doc10,
+            #doc11 {
+                display: none;
+            }
+
+
+            #mobilePdf {
+                margin: auto;
+                padding: 0;
+                width: 40rem;
+                height: 30rem;
+
+                ul {
+                    list-style-type: none;
+                    font-size: 0.7rem;
+                    padding: 0px;
+                }
+
+            }
+        }
+    }
+
+    #footer {
+        div.col-4 {
+            display: inline-table;
+            margin: 0 auto;
+        }
+
+
+
+        h2,
+        h3,
+        h4 {
+            font-size: 11px;
+        }
+    }
+
+    h5 {
+        font-size: 10px;
+    }
+
+}
+
+
+
+@media(min-width: 481px) and (max-width: 767px) {
+
+    body {
+
+        button#myBtn {
+            bottom: 0;
+            right: 0;
+            z-index: 0;
+            font-size: 0px;
+            border: none;
+            outline: none;
+            background-color: #8a6680;
+            color: white;
+            cursor: pointer;
+            padding: 0;
+            border-radius: 0;
+            display: none;
+        }
+
+        #top h3 {
+            margin-left: 6rem;
+        }
+
+        #portfolio {
+
+            width: 88%;
+            margin-top: 2rem;
+
+            h2 {
+                font-size: 1rem;
+            }
+
+            h4 {
+                font-size: 0.5rem;
+                padding: 1rem;
+
+            }
+
+            #doc1,
+            #doc2,
+            #doc3,
+            #doc4,
+            #doc5,
+            #doc6,
+            #doc7,
+            #doc8,
+            #doc9,
+            #doc10,
+            #doc11 {
+                display: none;
+            }
+
+
+            #mobilePdf {
+                width: 40rem;
+                height: 30rem;
+
+                ul {
+                    list-style-type: none;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+
+
+    #footer {
+        div.col-4 {
+            display: inline-table;
+            margin: 0 auto;
+        }
+
+
+
+        h2,
+        h3,
+        h4 {
+            font-size: 11px;
+        }
+
+
+        h5 {
+            font-size: 10px;
+        }
+    }
+}
+
+
+@media(min-width: 768px) and (max-width: 1023px) {
+    body {
+
+        #mobilePdf {
+            display: none;
+        }
+    }
+
+
+}
+
+@media(min-width: 1024px) and (max-width: 1280px) {
+    body {
+
+        #mobilePdf {
+            display: none;
+        }
+    }
+}
+
+
+@media(min-width: 1281px) and (max-width:1920px) {
+    body {
+
+        #mobilePdf {
+            display: none;
+        }
+    }
+}

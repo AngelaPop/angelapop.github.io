@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500i,700&subset=cyrillic');
+
+body {
+
+
+    margin: 0 auto;
+    font-family: 'Comfortaa', cursive;
+
+    background-image: url('../img/background2-1.jpg');
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+
+    #top {
+        font-family: 'Comfortaa', cursive;
+        background-image: url('../img/continents-873103_1920.jpg');
+        height: 25rem;
+        display: block;
+        width: 100%;
+        border-radius: unset;
+        background-repeat: no-repeat;
+        margin-right: 20rem;
+
+        img {
+
+            width: 100%;
+            height: auto;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            margin-top: 6rem;
+            font-size: 32px;
+            margin-left: 30rem;
+            font-family: 'Plafair', sans-serif;
+            color: rgb(89, 215, 231);
+        }
+
+        h3 {
+            margin-left: 30rem;
+            font-family: 'EB Garamond', serif;
+            color: white;
+            font-weight: 900;
+            font-size: 2.75rem;
+        }
+    }
+
+    #navbar {
+        ul li a.nav-link:hover {
+            color: white;
+        }
+    }
+
+    #main {
+
+        margin-top: 10rem;
+        text-align: justify;
+        width: 100%;
+        margin-left: 3.5rem;
+
+        h4 {
+            font-family: 'Comfortaa', sans-serif;
+            font-size: 18px;
+            color: whitesmoke;
+            text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+        }
+
+
+
+        img {
+            margin-left: 1rem;
+            max-width: 100%;
+            margin-top: 3rem;
+            margin-right: 3rem;
+            margin-bottom: 3rem;
+
+            -webkit-box-shadow: 5px 8px 15px 0px #3a3939;
+            box-shadow: 5px 8px 15px 0px #2b2a2a;
+
+            border: 20px ridge #58108b;
+
+
+
+
+            border-width: 20px;
+            border-style: ridge;
+            border-color: #58108b;
+            float: inline-start;
+        }
+
+        #second {
+
+            text-align: justify;
+            margin: 0 auto;
+            margin-left: 10rem;
+
+            h4,
+            h5 {
+                margin-top: 2rem;
+                width: 100%;
+                text-align: justify;
+            }
+        }
+    }
+
+    #about {
+        width: 40rem;
+        height: 85rem;
+        margin-bottom: 2rem;
+        -webkit-box-shadow: 5px 8px 15px 0px #3a3939;
+        box-shadow: 5px 8px 15px 0px #2b2a2a;
+        font-family: 'Montserrat', sans-serif;
+
+        #rosePicture {
+            margin-left: 21rem;
+            padding: 2rem;
+        }
+
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            margin-left: 3rem;
+            padding-left: 3rem;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        background-color: rgb(217, 184, 233);
+
+        img {
+
+            width: auto;
+
+        }
+
+        p {
+            max-height: 100%;
+            text-align: justify;
+        }
+
+        .lead {
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        #praha {
+            display: block;
+
+            h3 {
+                text-align: center;
+                font-size: 20px;
+            }
+
+            img {
+                margin: auto;
+
+            }
+
+
+        }
+    }
+
+    #services {
+        margin-bottom: 2rem;
+        height: 70rem;
+        -webkit-box-shadow: 5px 8px 15px 0px #3a3939;
+        box-shadow: 5px 8px 15px 0px #2b2a2a;
+
+        h2 {
+            padding-top: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+            font-style: bold;
+        }
+
+        h4 {
+            margin: 5rem;
+            font-size: 1.2rem;
+            text-align: justify;
+
+        }
+
+        background-color: rgb(209, 183, 241)
+
+    }
+
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: rgb(138, 102, 128);
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+
+    #myBtn:hover {
+        background-color: #555;
+    }
+
+    a:hover {
+        color: darkmagenta;
+    }
+
+    #footer {
+        background-color: rgba(194, 162, 194, 0.8);
+    }
+}
+
+
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media all and (max-width: 1281px) {
+    body {}
+}
+
+// Large devices (desktops, 992px and up)
+@media all and(min-width: 1025px) and (max-width: 1280px) {
+
+    body {}
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media all and (min-width: 768px) and (max-width: 1024px) {}
+
+// Extra small devices (portrait phones, less than 576px)
+@media all and(min-width: 320px) and (max-width: 480px) {
+    body {
+        width: 320px;
+        height: auto;
+
+        margin: 0;
+        padding: 0;
+
+        #top {
+            background-image: url('../img/continents-small.jpg');
+            height: 6rem;
+            display: block;
+            width: 100%;
+
+            h1 {
+                margin-top: 0;
+                font-size: 14px;
+                margin-left: 7rem;
+                font-family: 'Plafair', sans-serif;
+                color: #59d7e7;
+            }
+
+            h3 {
+                display: flex;
+                margin-left: 2rem;
+                font-family: 'EB Garamond', serif;
+                color: white;
+                font-weight: 900;
+                font-size: 14px;
+
+
+            }
+        }
+
+
+
+        button#myBtn {
+            bottom: 0;
+            right: 0;
+            z-index: 0;
+            font-size: 0px;
+            border: none;
+            outline: none;
+            background-color: #8a6680;
+            color: white;
+            cursor: pointer;
+            padding: 0;
+            border-radius: 0;
+            display: none;
+        }
+
+
+        #about {
+            height: 57rem;
+
+            div.card-body {
+                h5.card-title {
+                    font-size: 9px;
+
+                    padding: 0;
+                }
+            }
+        }
+
+        body #main img {
+            margin-left: 0.5rem;
+            max-width: 100%;
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+            -webkit-box-shadow: 5px 8px 15px 0px #3a3939;
+            box-shadow: 5px 8px 15px 0px #2b2a2a;
+        }
+
+        #main {
+            padding: 1rem;
+            margin-left: 0;
+            margin-top: 0;
+
+            h4 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 13px;
+                padding-top: 5px;
+                padding: 2px;
+
+            }
+        }
+
+        #top {
+
+
+
+
+            img {
+                width: 100%;
+            }
+
+        }
+    }
+
+    body #services {
+        width: 95%;
+        height: auto;
+
+
+        h2 {
+            padding-top: 1rem;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        h4 {
+
+            margin: 0;
+
+
+            width: 98%;
+            font-size: 10px;
+            text-align: justify;
+
+            padding: 2px;
+        }
+
+    }
+
+    #footer {
+        div.col-4 {
+            display: inline-table;
+            margin: 0 auto;
+        }
+
+
+
+        h2,
+        h3,
+        h4 {
+            font-size: 11px;
+        }
+    }
+
+    h5 {
+        font-size: 10px;
+    }
+}
+
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media all and (min-width: 481px) and (max-width: 767px) {
+
+    body {
+        width: 90%;
+        height: auto;
+
+        margin: 0;
+        padding: 0;
+
+        #top {
+            background-image: url('../img/continents-small.jpg');
+            height: 6rem;
+            display: block;
+            width: 100%;
+
+            h1 {
+                margin-top: 0;
+                font-size: 14px;
+                margin-left: 7rem;
+                font-family: 'Plafair', sans-serif;
+                color: #59d7e7;
+            }
+
+            h3 {
+                display: flex;
+                margin-left: 2rem;
+                font-family: 'EB Garamond', serif;
+                color: white;
+                font-weight: 900;
+                font-size: 14px;
+
+            }
+        }
+
+
+
+        button#myBtn {
+            bottom: 0;
+            right: 0;
+            z-index: 0;
+            font-size: 0px;
+            border: none;
+            outline: none;
+            background-color: #8a6680;
+            color: white;
+            cursor: pointer;
+            padding: 0;
+            border-radius: 0;
+            display: none;
+        }
+
+
+        #about {
+            height: auto;
+
+            div.card-body {
+                h5.card-title {
+                    font-size: 9px;
+
+                    padding: 0;
+                }
+            }
+        }
+
+        body #main img {
+            margin-left: 0.5rem;
+            max-width: 100%;
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+            -webkit-box-shadow: 5px 8px 15px 0px #3a3939;
+            box-shadow: 5px 8px 15px 0px #2b2a2a;
+        }
+
+        #main {
+            padding: 1rem;
+            margin-left: 0.5rem;
+            margin-top: 0;
+
+            h4 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 13px;
+                padding-top: 5px;
+                padding: 2px;
+
+            }
+        }
+
+        #top {
+
+
+
+
+            img {
+                width: 100%;
+            }
+
+        }
+    }
+
+    body #services {
+        width: 90%;
+        height: auto;
+        padding-bottom: 2rem;
+
+
+        h2 {
+            padding-top: 1rem;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        h4 {
+
+            margin: 0;
+
+
+            width: 98%;
+            font-size: 10px;
+            text-align: justify;
+
+            padding: 2px;
+        }
+
+    }
+
+    #footer {
+        div.col-4 {
+            display: inline-table;
+            margin: 0 auto;
+        }
+
+
+
+        h2,
+        h3,
+        h4 {
+            font-size: 11px;
+        }
+    }
+
+    h5 {
+        font-size: 10px;
+    }
+}
+
+
+
+@media all and(min-width: 0px) and (max-width: 767px) {
+
+
+
+
+    body button#myBtn {
+        display: none;
+    }
+
+    body {
+
+        #top {
+            background-image: url('../img/continents-medium.jpg');
+            height: 6rem;
+            display: block;
+            width: 100%;
+
+            h1 {
+                margin-top: 0;
+                font-size: 14px;
+                margin-left: 7rem;
+                font-family: 'Plafair', sans-serif;
+                color: #59d7e7;
+            }
+
+            h3 {
+                display: flex;
+                margin-left: 12rem;
+                font-family: 'EB Garamond', serif;
+                color: white;
+                font-weight: 900;
+                font-size: 14px;
+
+
+
+            }
+        }
+
+        #about {
+
+            padding-left: 0;
+            margin-left: 20px;
+            padding: 12px;
+            width: 90%;
+
+
+        }
+
+        body #top {
+            background-image: url('../img/continents-small.jpg');
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+        h4 {
+            font-size: 15px;
+
+        }
+
+        p {
+            font-size: 28px;
+        }
+
+        #services {
+            width: 90%;
+            height: auto;
+            padding-bottom: 2rem;
+        }
+
+        button#myBtn {
+            display: none;
+        }
+
+        #main img {
+            float: unset;
+
+            margin-left: 0.5rem;
+            max-width: 100%;
+            margin-top: 0rem;
+            margin-right: 0rem;
+            margin-bottom: 3rem;
+            -webkit-box-shadow: 5px 8px 15px 0px #3a3939;
+            box-shadow: 5px 8px 15px 0px #2b2a2a;
+
+        }
+
+
+        text-align: justify;
+        width: 100%;
+        margin-left: 0.5rem;
+
+
+
+
+        h4 {
+
+            width: 98%;
+            font-size: 15px;
+            padding: 3rem;
+        }
+
+    }
+
+    #about {
+
+        width: 22rem;
+        padding-bottom: 2rem;
+
+        margin: 3rem;
+        height: 62rem;
+
+        div.card {
+            width: 49rem;
+            margin-left: 2rem;
+
+
+
+
+            #riverImg {
+
+
+                width: 150px;
+                padding: 0rem;
+
+                margin: auto;
+                margin-top: 1rem;
+                margin-left: 40px;
+            }
+        }
+    }
+
+    p {
+        padding-right: 5rem;
+    }
+
+    body #about {
+        height: 51rem;
+        padding-left: 0;
+        margin-left: 20px;
+        padding: 12px;
+
+        div.card {
+            width: 5px;
+            margin-left: 10px;
+        }
+
+        h2 {
+
+            text-align: center;
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 15px;
+            padding-right: 0px;
+        }
+
+
+
+        #rosePicture {
+            height: 125px;
+            width: 125px;
+
+            margin-left: 6rem;
+            ;
+            padding: 8px;
+        }
+
+        div.card {
+            width: 20rem;
+            margin-left: 0;
+
+            h5 {
+                font-size: 18px;
+            }
+        }
+
+        div.card #riverImg {
+            width: 18rem;
+            margin-top: 1rem;
+            margin-left: 1rem;
+        }
+    }
+}
+
+
+
+
+@media(min-width: 768px) and (max-width: 1023px) {
+    body {}
+
+
+}
+
+@media(min-width: 1024px) and (max-width: 1280px) {
+
+    body {
+
+        h2 {
+            font-size: 35px;
+        }
+
+        h4 {
+            font-size: 33px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        display: inline-block;
+
+        #services {
+            width: 90%;
+            height: 76rem;
+        }
+
+        #main {
+
+            margin-top: 3rem;
+            text-align: justify;
+            width: 100%;
+            margin-left: 0.5rem;
+            display: inline-block;
+            padding: 3rem;
+
+
+            #main h4 {
+
+                width: 98%;
+                padding: 4rem;
+
+            }
+        }
+
+
+        #about {
+            height: auto;
+            width: 70rem;
+            padding-bottom: 2rem;
+            margin: 4rem;
+            padding-left: 3rem;
+
+            div.card {
+
+                width: 62rem;
+                margin-left: 1rem;
+            }
+
+
+            #riverImg {
+
+                width: 55rem;
+                padding: 0rem;
+                margin: auto;
+                margin-top: 3rem;
+                margin-left: 3rem;
+
+            }
+        }
+
+
+        p {
+            padding-right: 0;
+        }
+    }
+
+
+
+
+}
+
+/*--------------- Small PC monitors ---------------*/
+@media(min-width: 1080px) {
+    body {
+        width: 100%;
+
+        #main {
+            margin-left: 1rem;
+
+            h4 {
+                padding-left: 3rem;
+            }
+        }
+
+        #services,
+        #about {
+            width: 95%;
+        }
+    }
+}
+
+
+@media(min-width: 1281px) and (max-width:1920px) {
+
+    body {
+        width: 100%;
+
+        #main h4 {
+            margin-left: 9rem;
+            width: inherit;
+        }
+    }
+
+    body #main img {
+        margin-left: 35rem;
+        max-width: 100%;
+        margin-top: 0rem;
+        margin-right: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    body #about {
+        height: 71rem;
+    }
+}
