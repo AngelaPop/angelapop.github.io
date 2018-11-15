@@ -219,6 +219,17 @@ body #footer {
   }
 }
 
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+  body #main img {
+    float: left;
+    margin-left: 10rem;
+    max-width: 100%;
+    margin-top: 0rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
 @media all and (min-width: 320px) and (max-width: 480px) {
   body {
     width: 320px;

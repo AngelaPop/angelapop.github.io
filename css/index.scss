@@ -253,8 +253,13 @@ body #main img {
 // Large devices (desktops, 992px and up)
 @media all and(min-width: 1025px) and (max-width: 1280px) {
 
-    body {
-
+    body #main img {
+        float: left;
+        margin-left: 10rem;
+        max-width: 100%;
+        margin-top: 0rem;
+        margin-right: 3rem;
+        margin-bottom: 3rem;
     }
 }
 
