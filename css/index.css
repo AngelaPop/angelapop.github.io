@@ -194,6 +194,19 @@ body #footer {
   background-color: rgba(194, 162, 194, 0.8);
 }
 
+@media all and (max-width: 1281px) {
+  body #main img {
+    margin-left: 10rem;
+    max-width: 100%;
+    margin-top: 0rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+  }
+  body #main img {
+    margin-left: 11rem;
+  }
+}
+
 @media all and (min-width: 320px) and (max-width: 480px) {
   body {
     width: 320px;
@@ -535,6 +548,13 @@ body #footer {
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
+  body #main img {
+    margin-left: 10rem;
+    max-width: 100%;
+    margin-top: 0rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+  }
   body {
     display: inline-block;
   }
@@ -588,6 +608,13 @@ body #footer {
 
 /*--------------- Small PC monitors ---------------*/
 @media (min-width: 1080px) {
+  body #main img {
+    margin-left: 10rem;
+    max-width: 100%;
+    margin-top: 0rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+  }
   body {
     width: 100%;
   }
@@ -612,7 +639,7 @@ body #footer {
     width: inherit;
   }
   body #main img {
-    margin-left: 35rem;
+    margin-left: 10rem;
     max-width: 100%;
     margin-top: 0rem;
     margin-right: 3rem;
