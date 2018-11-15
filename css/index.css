@@ -194,6 +194,17 @@ body #footer {
   background-color: rgba(194, 162, 194, 0.8);
 }
 
+@media (max-width: 1920px) and (min-width: 1281px) {
+  body #main img {
+    float: left;
+    margin-left: 10rem;
+    max-width: 100%;
+    margin-top: 0rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
 @media all and (max-width: 1281px) {
   body #main img {
     float: left;
@@ -611,6 +622,7 @@ body #footer {
 /*--------------- Small PC monitors ---------------*/
 @media (min-width: 1080px) {
   body #main img {
+    float: left;
     margin-left: 10rem;
     max-width: 100%;
     margin-top: 0rem;
