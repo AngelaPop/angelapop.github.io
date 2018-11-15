@@ -227,13 +227,17 @@ body {
 
 // Extra large devices (large desktops, 1200px and up)
 @media all and (max-width: 1281px) {
-    body {}
+    body #main img {
+        margin-left: 11rem;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media all and(min-width: 1025px) and (max-width: 1280px) {
 
-    body {}
+    body {
+
+    }
 }
 
 
